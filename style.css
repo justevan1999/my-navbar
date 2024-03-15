@@ -20,25 +20,25 @@
   color: inherit;
 }
 
-button {
+nav button {
   border: none;
   outline: none;
   background-color: transparent;
   cursor: pointer;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: inherit;
 }
 
-ul {
+nav ul {
   list-style: none;
 }
 
-body {
+/* body {
   font-family: var(--lexend);
-}
+} */
 
 /* NAV */
 nav {
@@ -78,7 +78,7 @@ nav ul li:hover {
   text-underline-offset: 3px;
 }
 
-nav ul li a.active {
+nav ul li a.hideee {
     text-decoration: underline;
     text-decoration-color: var(--main-red);
     text-underline-offset: 3px;

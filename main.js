@@ -13,16 +13,16 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Default: Highlight the "Home" link
     const homeLink = document.querySelector("nav ul li a[href='/']");
-    homeLink.classList.add("active");
+    homeLink.classList.add("hideee");
   
     navLinks.forEach((link) => {
       const linkPath = link.getAttribute("href");
   
       // Check if the current page exactly matches the link path
       if (currentPage === linkPath) {
-        link.classList.add("active");
+        link.classList.add("hideee");
       } else {
-        link.classList.remove("active");
+        link.classList.remove("hideee");
       }
     });
   });
